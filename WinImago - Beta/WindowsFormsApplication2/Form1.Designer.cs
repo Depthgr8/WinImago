@@ -53,10 +53,6 @@
             this.howToDecryptAFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.winImagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.duoVisionInfotechToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pojectManagerDeepakSharmaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cEOLokeshAgrawalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.t2Move = new System.Windows.Forms.ToolStripButton();
             this.t2Copy = new System.Windows.Forms.ToolStripButton();
@@ -80,6 +76,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.creditsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -101,7 +98,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(688, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(688, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -114,14 +111,14 @@
             this.saveAsToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(47, 25);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(157, 26);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -129,7 +126,7 @@
             // 
             this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(157, 26);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.savenexit_Click);
             // 
@@ -143,41 +140,41 @@
             this.gifToolStripMenuItem});
             this.saveAsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveAsToolStripMenuItem.Image")));
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(157, 26);
             this.saveAsToolStripMenuItem.Text = "Save As..";
             // 
             // jpgFileToolStripMenuItem
             // 
             this.jpgFileToolStripMenuItem.Name = "jpgFileToolStripMenuItem";
-            this.jpgFileToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.jpgFileToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.jpgFileToolStripMenuItem.Text = ".JPG File";
             this.jpgFileToolStripMenuItem.Click += new System.EventHandler(this.jpgFileToolStripMenuItem_Click);
             // 
             // bmpFileToolStripMenuItem
             // 
             this.bmpFileToolStripMenuItem.Name = "bmpFileToolStripMenuItem";
-            this.bmpFileToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.bmpFileToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.bmpFileToolStripMenuItem.Text = ".BMP File";
             this.bmpFileToolStripMenuItem.Click += new System.EventHandler(this.bmpFileToolStripMenuItem_Click);
             // 
             // pngFileToolStripMenuItem
             // 
             this.pngFileToolStripMenuItem.Name = "pngFileToolStripMenuItem";
-            this.pngFileToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.pngFileToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.pngFileToolStripMenuItem.Text = ".PNG File";
             this.pngFileToolStripMenuItem.Click += new System.EventHandler(this.pngFileToolStripMenuItem_Click);
             // 
             // tIFFFileToolStripMenuItem
             // 
             this.tIFFFileToolStripMenuItem.Name = "tIFFFileToolStripMenuItem";
-            this.tIFFFileToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.tIFFFileToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.tIFFFileToolStripMenuItem.Text = ".TIFF File";
             this.tIFFFileToolStripMenuItem.Click += new System.EventHandler(this.tIFFFileToolStripMenuItem_Click);
             // 
             // gifToolStripMenuItem
             // 
             this.gifToolStripMenuItem.Name = "gifToolStripMenuItem";
-            this.gifToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.gifToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.gifToolStripMenuItem.Text = ".GIF File";
             this.gifToolStripMenuItem.Click += new System.EventHandler(this.gifToolStripMenuItem_Click);
             // 
@@ -185,7 +182,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(157, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -196,14 +193,14 @@
             this.falseColorsToolStripMenuItem,
             this.negativeToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(53, 25);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // grayscaleToolStripMenuItem
             // 
             this.grayscaleToolStripMenuItem.Image = global::WindowsFormsApplication2.Properties.Resources.Icon_23;
             this.grayscaleToolStripMenuItem.Name = "grayscaleToolStripMenuItem";
-            this.grayscaleToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.grayscaleToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.grayscaleToolStripMenuItem.Text = "Grayscale";
             this.grayscaleToolStripMenuItem.Click += new System.EventHandler(this.t2Grayscale_Click);
             // 
@@ -211,7 +208,7 @@
             // 
             this.falseColorsToolStripMenuItem.Image = global::WindowsFormsApplication2.Properties.Resources.Icon_23;
             this.falseColorsToolStripMenuItem.Name = "falseColorsToolStripMenuItem";
-            this.falseColorsToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.falseColorsToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.falseColorsToolStripMenuItem.Text = "False colors";
             this.falseColorsToolStripMenuItem.Click += new System.EventHandler(this.t2Falsecolors_Click);
             // 
@@ -219,7 +216,7 @@
             // 
             this.negativeToolStripMenuItem.Image = global::WindowsFormsApplication2.Properties.Resources.Icon_23;
             this.negativeToolStripMenuItem.Name = "negativeToolStripMenuItem";
-            this.negativeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.negativeToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.negativeToolStripMenuItem.Text = "Negative";
             this.negativeToolStripMenuItem.Click += new System.EventHandler(this.t2Negative_Click);
             // 
@@ -229,14 +226,14 @@
             this.encryptWithWinImagoToolStripMenuItem,
             this.decryptWithWinImagoToolStripMenuItem});
             this.taToolStripMenuItem.Name = "taToolStripMenuItem";
-            this.taToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.taToolStripMenuItem.Size = new System.Drawing.Size(58, 25);
             this.taToolStripMenuItem.Text = "Task";
             // 
             // encryptWithWinImagoToolStripMenuItem
             // 
             this.encryptWithWinImagoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("encryptWithWinImagoToolStripMenuItem.Image")));
             this.encryptWithWinImagoToolStripMenuItem.Name = "encryptWithWinImagoToolStripMenuItem";
-            this.encryptWithWinImagoToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.encryptWithWinImagoToolStripMenuItem.Size = new System.Drawing.Size(275, 26);
             this.encryptWithWinImagoToolStripMenuItem.Text = "Encrypt with WinImago";
             this.encryptWithWinImagoToolStripMenuItem.Click += new System.EventHandler(this.t2Encrypt_Click);
             // 
@@ -244,7 +241,7 @@
             // 
             this.decryptWithWinImagoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("decryptWithWinImagoToolStripMenuItem.Image")));
             this.decryptWithWinImagoToolStripMenuItem.Name = "decryptWithWinImagoToolStripMenuItem";
-            this.decryptWithWinImagoToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.decryptWithWinImagoToolStripMenuItem.Size = new System.Drawing.Size(275, 26);
             this.decryptWithWinImagoToolStripMenuItem.Text = "Decrypt with WinImago";
             this.decryptWithWinImagoToolStripMenuItem.Click += new System.EventHandler(this.t2Decrypt_Click);
             // 
@@ -255,14 +252,14 @@
             this.howToEncryptAFileToolStripMenuItem,
             this.howToDecryptAFileToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(60, 25);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // howToUseWinImagoToolStripMenuItem
             // 
             this.howToUseWinImagoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("howToUseWinImagoToolStripMenuItem.Image")));
             this.howToUseWinImagoToolStripMenuItem.Name = "howToUseWinImagoToolStripMenuItem";
-            this.howToUseWinImagoToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.howToUseWinImagoToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
             this.howToUseWinImagoToolStripMenuItem.Text = "How to Use WinImago";
             this.howToUseWinImagoToolStripMenuItem.Click += new System.EventHandler(this.howToUseWinImagoToolStripMenuItem_Click);
             // 
@@ -270,7 +267,7 @@
             // 
             this.howToEncryptAFileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("howToEncryptAFileToolStripMenuItem.Image")));
             this.howToEncryptAFileToolStripMenuItem.Name = "howToEncryptAFileToolStripMenuItem";
-            this.howToEncryptAFileToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.howToEncryptAFileToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
             this.howToEncryptAFileToolStripMenuItem.Text = "How to Encrypt a file";
             this.howToEncryptAFileToolStripMenuItem.Click += new System.EventHandler(this.howToEncryptAFileToolStripMenuItem_Click);
             // 
@@ -278,7 +275,7 @@
             // 
             this.howToDecryptAFileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("howToDecryptAFileToolStripMenuItem.Image")));
             this.howToDecryptAFileToolStripMenuItem.Name = "howToDecryptAFileToolStripMenuItem";
-            this.howToDecryptAFileToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.howToDecryptAFileToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
             this.howToDecryptAFileToolStripMenuItem.Text = "How to Decrypt a file";
             this.howToDecryptAFileToolStripMenuItem.Click += new System.EventHandler(this.howToDecryptAFileToolStripMenuItem_Click);
             // 
@@ -286,50 +283,18 @@
             // 
             this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.winImagoToolStripMenuItem,
-            this.duoVisionInfotechToolStripMenuItem});
+            this.creditsToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(75, 25);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // winImagoToolStripMenuItem
             // 
             this.winImagoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("winImagoToolStripMenuItem.Image")));
             this.winImagoToolStripMenuItem.Name = "winImagoToolStripMenuItem";
-            this.winImagoToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.winImagoToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.winImagoToolStripMenuItem.Text = "WinImago";
             this.winImagoToolStripMenuItem.Click += new System.EventHandler(this.winImagoToolStripMenuItem_Click);
-            // 
-            // duoVisionInfotechToolStripMenuItem
-            // 
-            this.duoVisionInfotechToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pojectManagerDeepakSharmaToolStripMenuItem,
-            this.cEOLokeshAgrawalToolStripMenuItem,
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem});
-            this.duoVisionInfotechToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("duoVisionInfotechToolStripMenuItem.Image")));
-            this.duoVisionInfotechToolStripMenuItem.Name = "duoVisionInfotechToolStripMenuItem";
-            this.duoVisionInfotechToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.duoVisionInfotechToolStripMenuItem.Text = "Duo Vision Infotech Ltd.";
-            // 
-            // pojectManagerDeepakSharmaToolStripMenuItem
-            // 
-            this.pojectManagerDeepakSharmaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pojectManagerDeepakSharmaToolStripMenuItem.Image")));
-            this.pojectManagerDeepakSharmaToolStripMenuItem.Name = "pojectManagerDeepakSharmaToolStripMenuItem";
-            this.pojectManagerDeepakSharmaToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
-            this.pojectManagerDeepakSharmaToolStripMenuItem.Text = "Poject Developer    --   depthgr8@gmail.com ";
-            // 
-            // cEOLokeshAgrawalToolStripMenuItem
-            // 
-            this.cEOLokeshAgrawalToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cEOLokeshAgrawalToolStripMenuItem.Image")));
-            this.cEOLokeshAgrawalToolStripMenuItem.Name = "cEOLokeshAgrawalToolStripMenuItem";
-            this.cEOLokeshAgrawalToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
-            this.cEOLokeshAgrawalToolStripMenuItem.Text = "CEO                                +91-9460140555";
-            // 
-            // graphicsDesignerFaisalQuereshiToolStripMenuItem
-            // 
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("graphicsDesignerFaisalQuereshiToolStripMenuItem.Image")));
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Name = "graphicsDesignerFaisalQuereshiToolStripMenuItem";
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Text = "Graphics Designer        +91-9461969473";
             // 
             // toolStrip1
             // 
@@ -348,10 +313,10 @@
             this.t2Decrypt,
             this.filepath,
             this.t2Go});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 29);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(688, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(688, 28);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -361,7 +326,7 @@
             this.t2Move.Image = ((System.Drawing.Image)(resources.GetObject("t2Move.Image")));
             this.t2Move.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Move.Name = "t2Move";
-            this.t2Move.Size = new System.Drawing.Size(23, 22);
+            this.t2Move.Size = new System.Drawing.Size(23, 25);
             this.t2Move.Text = "toolStripButton1";
             this.t2Move.ToolTipText = "Move";
             this.t2Move.Click += new System.EventHandler(this.t2Move_Click);
@@ -372,7 +337,7 @@
             this.t2Copy.Image = ((System.Drawing.Image)(resources.GetObject("t2Copy.Image")));
             this.t2Copy.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Copy.Name = "t2Copy";
-            this.t2Copy.Size = new System.Drawing.Size(23, 22);
+            this.t2Copy.Size = new System.Drawing.Size(23, 25);
             this.t2Copy.Text = "toolStripButton2";
             this.t2Copy.ToolTipText = "Copy";
             this.t2Copy.Click += new System.EventHandler(this.t2Copy_Click);
@@ -380,7 +345,7 @@
             // toolStripButton3
             // 
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(6, 25);
+            this.toolStripButton3.Size = new System.Drawing.Size(6, 28);
             // 
             // t2Grayscale
             // 
@@ -388,7 +353,7 @@
             this.t2Grayscale.Image = ((System.Drawing.Image)(resources.GetObject("t2Grayscale.Image")));
             this.t2Grayscale.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Grayscale.Name = "t2Grayscale";
-            this.t2Grayscale.Size = new System.Drawing.Size(23, 22);
+            this.t2Grayscale.Size = new System.Drawing.Size(23, 25);
             this.t2Grayscale.Text = "toolStripButton4";
             this.t2Grayscale.ToolTipText = "Grayscale";
             this.t2Grayscale.Click += new System.EventHandler(this.t2Grayscale_Click);
@@ -399,7 +364,7 @@
             this.t2Falsecolors.Image = ((System.Drawing.Image)(resources.GetObject("t2Falsecolors.Image")));
             this.t2Falsecolors.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Falsecolors.Name = "t2Falsecolors";
-            this.t2Falsecolors.Size = new System.Drawing.Size(23, 22);
+            this.t2Falsecolors.Size = new System.Drawing.Size(23, 25);
             this.t2Falsecolors.Text = "toolStripButton5";
             this.t2Falsecolors.ToolTipText = "False Colors";
             this.t2Falsecolors.Click += new System.EventHandler(this.t2Falsecolors_Click);
@@ -410,7 +375,7 @@
             this.t2Negative.Image = ((System.Drawing.Image)(resources.GetObject("t2Negative.Image")));
             this.t2Negative.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Negative.Name = "t2Negative";
-            this.t2Negative.Size = new System.Drawing.Size(23, 22);
+            this.t2Negative.Size = new System.Drawing.Size(23, 25);
             this.t2Negative.Text = "toolStripButton6";
             this.t2Negative.ToolTipText = "Negative";
             this.t2Negative.Click += new System.EventHandler(this.t2Negative_Click);
@@ -418,7 +383,7 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 28);
             // 
             // t2Encrypt
             // 
@@ -426,7 +391,7 @@
             this.t2Encrypt.Image = ((System.Drawing.Image)(resources.GetObject("t2Encrypt.Image")));
             this.t2Encrypt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Encrypt.Name = "t2Encrypt";
-            this.t2Encrypt.Size = new System.Drawing.Size(23, 22);
+            this.t2Encrypt.Size = new System.Drawing.Size(23, 25);
             this.t2Encrypt.Text = "toolStripButton7";
             this.t2Encrypt.ToolTipText = "Encrypt";
             this.t2Encrypt.Click += new System.EventHandler(this.t2Encrypt_Click);
@@ -437,7 +402,7 @@
             this.t2Decrypt.Image = ((System.Drawing.Image)(resources.GetObject("t2Decrypt.Image")));
             this.t2Decrypt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Decrypt.Name = "t2Decrypt";
-            this.t2Decrypt.Size = new System.Drawing.Size(23, 22);
+            this.t2Decrypt.Size = new System.Drawing.Size(23, 25);
             this.t2Decrypt.Text = "toolStripButton8";
             this.t2Decrypt.ToolTipText = "Decrypt";
             this.t2Decrypt.Click += new System.EventHandler(this.t2Decrypt_Click);
@@ -448,7 +413,7 @@
             this.filepath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.filepath.Name = "filepath";
             this.filepath.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.filepath.Size = new System.Drawing.Size(300, 25);
+            this.filepath.Size = new System.Drawing.Size(300, 28);
             this.filepath.ToolTipText = "Set Input file path here";
             // 
             // t2Go
@@ -457,7 +422,7 @@
             this.t2Go.Image = ((System.Drawing.Image)(resources.GetObject("t2Go.Image")));
             this.t2Go.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.t2Go.Name = "t2Go";
-            this.t2Go.Size = new System.Drawing.Size(23, 22);
+            this.t2Go.Size = new System.Drawing.Size(23, 25);
             this.t2Go.Text = "toolStripButton9";
             this.t2Go.ToolTipText = "Go";
             this.t2Go.Click += new System.EventHandler(this.setFilePath);
@@ -467,7 +432,7 @@
             this.statusStrip1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.t2Imagestatus});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 417);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 415);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(688, 23);
             this.statusStrip1.TabIndex = 2;
@@ -492,9 +457,9 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Mistral", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.groupBox1.Location = new System.Drawing.Point(0, 49);
+            this.groupBox1.Location = new System.Drawing.Point(0, 57);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(688, 368);
+            this.groupBox1.Size = new System.Drawing.Size(688, 358);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Preview";
@@ -597,13 +562,21 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "After";
             // 
+            // creditsToolStripMenuItem
+            // 
+            this.creditsToolStripMenuItem.Image = global::WindowsFormsApplication2.Properties.Resources.Icon_23;
+            this.creditsToolStripMenuItem.Name = "creditsToolStripMenuItem";
+            this.creditsToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.creditsToolStripMenuItem.Text = "Credits";
+            this.creditsToolStripMenuItem.Click += new System.EventHandler(this.creditsToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(688, 440);
+            this.ClientSize = new System.Drawing.Size(688, 438);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
@@ -645,7 +618,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem winImagoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem duoVisionInfotechToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton t2Move;
         private System.Windows.Forms.ToolStripButton t2Copy;
@@ -679,9 +651,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ToolStripMenuItem cEOLokeshAgrawalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pojectManagerDeepakSharmaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem graphicsDesignerFaisalQuereshiToolStripMenuItem;
         private System.Windows.Forms.Button savenexit;
         private System.Windows.Forms.ToolStripTextBox filepath;
         private System.Windows.Forms.ToolStripButton t2Go;
@@ -689,6 +658,7 @@
         private System.Windows.Forms.ToolStripStatusLabel t2Imagestatus;
         private System.Windows.Forms.ToolStripMenuItem tIFFFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gifToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem creditsToolStripMenuItem;
     }
 }
 

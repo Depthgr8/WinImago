@@ -497,8 +497,6 @@ namespace WindowsFormsApplication2
             exit_Click(sender, e);
         }
 
-
-
         private void jpgFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -537,8 +535,6 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("You are not playing by rules, You can' do this","Violation of Rules",MessageBoxButtons.RetryCancel,MessageBoxIcon.Warning);
             }
         }
-
-
 
         private void bmpFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -585,7 +581,11 @@ namespace WindowsFormsApplication2
         {
             MessageBox.Show("WinImago is a freeware application , You can use this application without any license or key, WinImago is a light weight application which you can use to encrypt your personal and confidential images. WinImago also provides you some basic image editing tools like grayscale, false colors and negative conversion of images. You can also use WinImago to copy and move Image Files as well as to change their image formats , With WinImago you can easily save your image files into other image file format ","About - WinImago (My Personal App)");
         }
-  
+
+        private void creditsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Designed & developed by Deepak Sharma, To know more about him search `depthgr8` on your search engine ", "DEPTHGR8");
+        }
 
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{98446A83-810B-4C80-8FB3-0FC3401CA241}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinImago", "WindowsFormsApplication2\WinImago.csproj", "{98446A83-810B-4C80-8FB3-0FC3401CA241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

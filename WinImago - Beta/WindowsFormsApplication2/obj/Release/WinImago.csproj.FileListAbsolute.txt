@@ -1,3 +1,5 @@
+C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe
+C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.pdb
 C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe.manifest
 C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.application
 C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe
@@ -9,5 +11,3 @@ C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\Gen
 C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\GenerateResource-ResGen.write.1.tlog
 C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe.manifest
 C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.application
-C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe
-C:\Users\Deepak\Desktop\WinImago - Beta\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.pdb
