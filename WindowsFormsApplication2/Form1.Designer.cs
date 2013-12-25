@@ -54,8 +54,8 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.winImagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.duoVisionInfotechToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cEOLokeshAgrawalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pojectManagerDeepakSharmaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cEOLokeshAgrawalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graphicsDesignerFaisalQuereshiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.t2Move = new System.Windows.Forms.ToolStripButton();
@@ -121,7 +121,7 @@
             // 
             this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -129,7 +129,7 @@
             // 
             this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.savenexit_Click);
             // 
@@ -143,7 +143,7 @@
             this.gifToolStripMenuItem});
             this.saveAsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveAsToolStripMenuItem.Image")));
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.saveAsToolStripMenuItem.Text = "Save As..";
             // 
             // jpgFileToolStripMenuItem
@@ -185,7 +185,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -310,13 +310,6 @@
             this.duoVisionInfotechToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.duoVisionInfotechToolStripMenuItem.Text = "Duo Vision Infotech Ltd.";
             // 
-            // cEOLokeshAgrawalToolStripMenuItem
-            // 
-            this.cEOLokeshAgrawalToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cEOLokeshAgrawalToolStripMenuItem.Image")));
-            this.cEOLokeshAgrawalToolStripMenuItem.Name = "cEOLokeshAgrawalToolStripMenuItem";
-            this.cEOLokeshAgrawalToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
-            this.cEOLokeshAgrawalToolStripMenuItem.Text = "CEO                                +91-9460140555";
-            // 
             // pojectManagerDeepakSharmaToolStripMenuItem
             // 
             this.pojectManagerDeepakSharmaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pojectManagerDeepakSharmaToolStripMenuItem.Image")));
@@ -324,17 +317,25 @@
             this.pojectManagerDeepakSharmaToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
             this.pojectManagerDeepakSharmaToolStripMenuItem.Text = "Poject Developer    --   depthgr8@gmail.com ";
             // 
+            // cEOLokeshAgrawalToolStripMenuItem
+            // 
+            this.cEOLokeshAgrawalToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cEOLokeshAgrawalToolStripMenuItem.Image")));
+            this.cEOLokeshAgrawalToolStripMenuItem.Name = "cEOLokeshAgrawalToolStripMenuItem";
+            this.cEOLokeshAgrawalToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
+            this.cEOLokeshAgrawalToolStripMenuItem.Text = "CEO                                +91-9460140555";
+            // 
             // graphicsDesignerFaisalQuereshiToolStripMenuItem
             // 
             this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("graphicsDesignerFaisalQuereshiToolStripMenuItem.Image")));
             this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Name = "graphicsDesignerFaisalQuereshiToolStripMenuItem";
-            this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
             this.graphicsDesignerFaisalQuereshiToolStripMenuItem.Text = "Graphics Designer        +91-9461969473";
             // 
             // toolStrip1
             // 
             this.toolStrip1.AllowDrop = true;
             this.toolStrip1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.t2Move,
             this.t2Copy,
@@ -477,9 +478,9 @@
             this.t2Imagestatus.BorderStyle = System.Windows.Forms.Border3DStyle.RaisedInner;
             this.t2Imagestatus.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.t2Imagestatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.t2Imagestatus.Margin = new System.Windows.Forms.Padding(3, 3, 0, 2);
             this.t2Imagestatus.Name = "t2Imagestatus";
-            this.t2Imagestatus.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
-            this.t2Imagestatus.Size = new System.Drawing.Size(383, 18);
+            this.t2Imagestatus.Size = new System.Drawing.Size(283, 18);
             this.t2Imagestatus.Text = "Choose one image to Edit or Encrypt";
             // 
             // groupBox1
