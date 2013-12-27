@@ -1,9 +1,9 @@
-WinImago
+nImago
 ========
 
 Introduction: WinImago is a freeware image editor - An open source lite image editor application
  * With WinImago you can do encryption of your images
- * WinImago also provides you an easy way to quickly edit your images ( supports all major image formats like .bmp, .jpg etc.
+ * WinImago also provides you an easy way to quickly edit your images ( supports all major image formats like `.BMP`, `.JPG`, `.TIFF`,  `.PNG`, `.GIF` etc.
 
 License
 ========
@@ -30,9 +30,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.<br>
 <pre>
- +--------------------------------------------------------------------------------------+
- |                      "THE COFFEE-WARE LICENSE" (Revision 1) :)                       |
- | As long as you retain this notice you can do whatever you want with this application.|
- | If we meet some day, and you think this stuff is worth it, you can buy me a coffee.  |
- +--------------------------------------------------------------------------------------+
+ +------------------------------------------------------------------------------------+
+ |                    "THE COFFEE-WARE LICENSE" (Revision 1) :)                       |
+ |As long as you retain this notice you can do what you want with this application.   |
+ |If we meet some day, and you think this stuff is worth it, you can buy me a coffee. |
+ +------------------------------------------------------------------------------------+
 </pre> 
+
