@@ -1,4 +1,4 @@
-nImago
+WinImago
 ========
 
 Introduction: WinImago is a freeware image editor - An open source lite image editor application
